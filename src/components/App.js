@@ -1,11 +1,11 @@
 import React from 'react';
-import InputComponent from './input';
 import '../styles/App.css';
+import InputForm from './Input';
 
 function App() {
   return (
     <div className="App">
-      <InputComponent />
+      <InputForm />
     </div>
   );
 }
