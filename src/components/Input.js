@@ -20,35 +20,50 @@ const InputForm = () => {
       name, salary, hobby, age,
     };
     axios.post('https://sheet.best/api/sheets/e972f109-e16d-44b7-8177-a1fe9345f648', data)
-      // .then((response) => {
-      //   console.log(response);
-      // });
+      .then((response) => {
+        console.log(response);
+      });
   };
 
   return (
-    <Container fluid className="container">
-      <Header as="h2">React Google Sheets</Header>
-      <Form className="form">
-        <Form.Field>
-          <label htmlFor={name}>Name</label>
-          <input value={name} id={name} onChange={(e) => setName(e.target.value)} placeholder="Enter your name" />
-        </Form.Field>
-        <Form.Field>
-          <label htmlFor={age}>Age</label>
-          <input value={age} id={age} onChange={(e) => setAge(e.target.value)} placeholder="Enter your age" />
-        </Form.Field>
-        <Form.Field>
-          <label htmlFor={salary}>Salary</label>
-          <input value={salary} id={salary} onChange={(e) => setSalary(e.target.value)} placeholder="Enter your salary" />
-        </Form.Field>
-        <Form.Field>
-          <label htmlFor="hobby">Hobby</label>
-          <input value={hobby} id={hobby} onChange={(e) => setHobby(e.target.value)} placeholder="Enter your hobby" />
-        </Form.Field>
-        <Button color="blue" type="submit" onClick={handleSubmit}>Submit</Button>
-      </Form>
-    </Container>
-  );
+		<Container fluid className="container">
+			<Header as="h2">Batch Form</Header>
+			<Form className="form">
+				<Form.Field>
+					<label>Batch Name</label>
+					<input
+						placeholder="Enter the Batch Name"
+						onChange={(e) => setName(e.target.value)}
+					/>
+				</Form.Field>
+				<Form.Field>
+					<label>Batch Serial No.</label>
+					<input
+						placeholder="Enter the Batch Serial No."
+						onChange={(e) => setAge(e.target.value)}
+					/>
+				</Form.Field>
+				<Form.Field>
+					<label>Product Details</label>
+					<input
+						placeholder="Enter the Product Details"
+						onChange={(e) => setSalary(e.target.value)}
+					/>
+				</Form.Field>
+				<Form.Field>
+					<label>No. of Events</label>
+					<input
+						placeholder="Enter the No. of Events"
+						onChange={(e) => setHobby(e.target.value)}
+					/>
+				</Form.Field>
+
+				<Button color="blue" type="submit" onClick={handleSubmit}>
+					Submit
+				</Button>
+			</Form>
+		</Container>
+	);
 }
 /* eslint-enable */
 
