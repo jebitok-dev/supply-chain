@@ -20,9 +20,11 @@ const InputForm = () => {
       BatchName, BatchSerialNo, Products, Events,
     };
     const headers = {
-		'Content-Type': 'multipart/form-data',
-		'Access-Control-Allow-Origin': 'http://localhost:3000',
-		'Access-Control-Allow-Credentials': 'true',
+		'Content-Type': 'application/x-www-form-urlencoded',
+		'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': '*',
+        'Access-Control-Allow-Headers': '*',
+		'Authorization': null,
 		'apikey': '84019BAEB9FCDD13E5CA68857D140E89240954F6645C2E48C54F27385DDE8D99',
 		'payload': '9AE97C64C752B25250561EDA13BDA91446BDD2CBD872DA9DB814C7E0A746A85F'
 	  }
