@@ -32,7 +32,6 @@ const InputForm = () => {
 		.then((response) => {
 		  console.log(response);
 		});
-	};
   };
 
   return (
