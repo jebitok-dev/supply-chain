@@ -6,12 +6,12 @@ const Header = ({ isClicked }) => (
     <div className="hero-text">
       <h1 className="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s">AlphOne</h1>
       <p className="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
-        A Rebasing Decentralized
+        An agricultural supply chain
         <br />
-        Algorithmic Stable  Coin
+        verification platform
         <br />
         {' '}
-        On Binance  Smart Chain
+        On the blockchain network
       </p>
       <button className={isClicked ? 'lightmodeButton my-2 ' : 'darkmodeButton my-2'}><Link to="/useApp">Use AlphOne</Link></button>
     </div>
