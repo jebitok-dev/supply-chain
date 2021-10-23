@@ -28,7 +28,7 @@ class NavBar extends Component {
   <header>
     <div className="navbar">
       <li className={this.state.clicked ? 'd-none' : 'd-block list-unstyled'}>
-        <NavLink exact to="/"><img src="images/logo.png" alt="company logo" className="logo mr-auto" id="logo" /></NavLink>
+        <NavLink exact to="/"></NavLink>
       </li>
       <span className={this.state.clicked ? 'd-block' : 'd-none'} onClick={this.props.switchMode}><img src={this.props.lightMode} alt="ok" width="20px" /></span>
       <div className="togglenavbar" onClick={handleClick}>
@@ -40,22 +40,22 @@ class NavBar extends Component {
     <nav className={this.state.clicked ? 'nav1' : 'nav'}>
       <ul className="d-flex list-unstyled m-0">
         <li className="list-unstyled" onClick={handleClick}>
-          <NavLink exact to="/"><img src="images/logo.png" alt="company logo" className="logo" /></NavLink>
+          <NavLink exact to="/"></NavLink>
         </li>
         <li onClick={handleClick}><NavLink style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} exact to="/documentation">Documentations</NavLink></li>
         <div />
         <li onClick={handleClick}><a style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} href="" target="blackx">About</a></li>
         <div />
         <li onClick={handleClick}><Link to="/#team" style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} animate={{ offset: 0, duration: 500 }}>Contact</Link></li>
-        <li onClick={handleClick}><button className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'}><NavLink to="/Input">Use SmartOne</NavLink></button></li>
+        <li onClick={handleClick}><button className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'}><NavLink to="/Input">Use Tracely</NavLink></button></li>
       </ul>
     </nav>
     <div className="desktop-nav">
       <nav className="topnav">
         <ul className="d-flex list-unstyled my-3">
           <li className="m-0">
-            <NavLink exact to="/"><img src="images/logo.png" alt="company logo" className="logo mr-auto " /></NavLink>
-            <ul className="my-auto ml-2 list-unstyled"><li className="my-auto"><NavLink style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} exact to="/">SmartOne</NavLink></li></ul>
+            <NavLink exact to="/"></NavLink>
+            <ul className="my-auto ml-2 list-unstyled"><li className="my-auto"><NavLink style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} exact to="/">Tracely</NavLink></li></ul>
           </li>
           <li className="ml-auto my-auto"><NavLink style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} to="/documentation">About</NavLink></li>
           <li className="my-auto"><a style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} href="" target="blackx">Contact</a></li>

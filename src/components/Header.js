@@ -4,7 +4,7 @@ import { Link, withRouter } from 'react-router-dom';
 const Header = ({ isClicked }) => (
   <section>
     <div className="hero-text">
-      <h1 className="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s">SmartOne</h1>
+      <h1 className="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s">Tracely</h1>
       <p className="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
         An agricultural supply chain
         <br />
@@ -13,7 +13,7 @@ const Header = ({ isClicked }) => (
         {' '}
         On the blockchain network
       </p>
-      <button className={isClicked ? 'lightmodeButton my-2 ' : 'darkmodeButton my-2'}><Link to="/Input">Use SmartOne</Link></button>
+      <button className={isClicked ? 'lightmodeButton my-2 ' : 'darkmodeButton my-2'}><Link to="/Input">Use Tracely</Link></button>
     </div>
 
   </section>

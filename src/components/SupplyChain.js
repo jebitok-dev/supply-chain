@@ -10,7 +10,7 @@ const Community = ({ isClicked }) => (
       {' '}
       repository.
     </p>
-    <p>You are welcome to discuss any project related to SmartOne with our friendly community in our Forums.</p>
+    <p>You are welcome to discuss any project related to Tracely with our friendly community in our Forums.</p>
     <p>Any contribution or partnership is welcome.</p>
     <button className={isClicked ? 'lightmodeButton' : 'darkmodeButton'}><a href="https://t.me/alph_One" target="bla_nck">Join Our Community</a></button>
   </section>
