@@ -47,7 +47,7 @@ class NavBar extends Component {
         <li onClick={handleClick}><a style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} href="" target="blackx">About</a></li>
         <div />
         <li onClick={handleClick}><Link to="/#team" style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} animate={{ offset: 0, duration: 500 }}>Contact</Link></li>
-        <li onClick={handleClick}><button className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'}><NavLink to="/useApp">Use AlphOne</NavLink></button></li>
+        <li onClick={handleClick}><button className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'}><NavLink to="/Input">Use SmartOne</NavLink></button></li>
       </ul>
     </nav>
     <div className="desktop-nav">
@@ -55,12 +55,12 @@ class NavBar extends Component {
         <ul className="d-flex list-unstyled my-3">
           <li className="m-0">
             <NavLink exact to="/"><img src="images/logo.png" alt="company logo" className="logo mr-auto " /></NavLink>
-            <ul className="my-auto ml-2 list-unstyled"><li className="my-auto"><NavLink style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} exact to="/">AlphOne</NavLink></li></ul>
+            <ul className="my-auto ml-2 list-unstyled"><li className="my-auto"><NavLink style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} exact to="/">SmartOne</NavLink></li></ul>
           </li>
           <li className="ml-auto my-auto"><NavLink style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} to="/documentation">About</NavLink></li>
           <li className="my-auto"><a style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} href="" target="blackx">Contact</a></li>
           <li className="my-auto"><Link to="/#team" style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} animate={{ offset: 0, duration: 500 }}>Team</Link></li>
-          <li className="my-auto"><button className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'}><NavLink to="/useApp"></NavLink></button></li>
+          <li className="my-auto"><button className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'}><NavLink to="/Input"></NavLink></button></li>
           <li onClick={this.props.switchMode}><img src={this.props.lightMode} alt="ok" width="20px" /></li>
         </ul>
       </nav>

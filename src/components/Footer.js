@@ -15,7 +15,7 @@ const Footer = ({ twitter, linkedin, github }) => (
       <ul className="list-unstyled footer-nav d-md-flex pb-3">
         <li className="my-auto mr-3 py-1"><NavLink to="/about">About</NavLink></li>
         <li className="my-auto py-1"><Link to="/#team">Contact</Link></li>
-        <li className="my-auto ml-auto py-1"><button className="lightmodeButton"><Link to="/useApp">Use SmartOne</Link></button></li>
+        <li className="my-auto ml-auto py-1"><button className="lightmodeButton"><Link to="/Input">Use SmartOne</Link></button></li>
       </ul>
       <div id="hr" />
       <div className="d-flex py-3">
