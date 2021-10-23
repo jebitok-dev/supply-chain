@@ -8,7 +8,7 @@ Building a Web-Application that various supply chain actors in various value cha
 
 <!-- ## Live Project -->
 
-<!-- - [Live Demo Link](https://fierce-spire-26749.herokuapp.com/) -->
+- [Live Demo Link](https://supplychainqr.netlify.app/)
 
 <!-- - [Video](https://www.loom.com/share/459aebb647ef46daab87de530ccd8970)
 
