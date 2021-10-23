@@ -19,7 +19,17 @@ const InputForm = () => {
     const data = {
       name, salary, hobby, age,
     };
-    axios.post('https://sheet.best/api/sheets/e972f109-e16d-44b7-8177-a1fe9345f648', data)
+
+    const headers = {
+      'Content-Type': 'multipart/form-data',
+      'apikey': '84019BAEB9FCDD13E5CA68857D140E89240954F6645C2E48C54F27385DDE8D99',
+      'payload': '9AE97C64C752B25250561EDA13BDA91446BDD2CBD872DA9DB814C7E0A746A85F'
+    }
+
+    const generateQrEndpoint = 'https://my.veridocglobal.com/api/generateqr';
+    axios.post(generateQrEndpoint, data, {
+        headers: headers
+    })
       .then((response) => {
         console.log(response);
       });
