@@ -29,12 +29,12 @@ const InputForm = () => {
 		'payload': '9AE97C64C752B25250561EDA13BDA91446BDD2CBD872DA9DB814C7E0A746A85F'
 	  }
 	
-	  const generateQrEndpoint = 'https://my.veridocglobal.com/api/generateqr';
+	  const generateQrEndpoint = 'http://localhost:3001/api/generateqr';
+	  console.log('about to send  request ');
 	  axios.post(generateQrEndpoint, data, {
 		  headers: headers
-	  })
-		.then((response) => {
-		  console.log(response);
+	  }).then((response) => {
+		  console.log('response',response.qrimage);
 		});
   };
 
