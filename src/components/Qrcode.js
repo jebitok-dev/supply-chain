@@ -38,7 +38,7 @@ function QrCode() {
       <p>
         Click for
         {' '}
-        <button type="button" className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'} onClick={downloadQRCode}>
+        <button type="button" onClick={downloadQRCode}>
           Download QR Code
         </button>
       </p>
