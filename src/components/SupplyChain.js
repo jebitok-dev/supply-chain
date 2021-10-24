@@ -8,14 +8,14 @@ const Community = ({ isClicked }) => (
     Certification bodies that want a tool to ease auditing and enhance the speed of quality control  procedures
     Consumers who want to “vote” with their money supporting responsible food</p>
     <p>
-      Visit our
+      If you're a developer or designer you can visit our
       <a href="https://github.com/jebitok-dev/supply-chain" target="sbalck">Github</a>
       {' '}
-      repository.
+      repository to contribute to our project.
     </p>
     <p>You are welcome to discuss any project related to Tracely with our friendly community in our Forums.</p>
     <p>Any contribution or partnership is welcome.</p>
-    <button className={isClicked ? 'lightmodeButton' : 'darkmodeButton'}><a href="https://t.me/alph_One" target="bla_nck">Join Our Community</a></button>
+    <button className={isClicked ? 'lightmodeButton' : 'darkmodeButton'}><a href="https://t.me/joinchat/t8Dl5-j2GjczZjFk" target="bla_nck">Join Our Community</a></button>
   </section>
 );
 

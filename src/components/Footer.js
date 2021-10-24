@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 /* eslint-disable*/ 
 
-const Footer = ({ twitter, linkedin, github }) => (
+const Footer = ({ twitter, telegram, github }) => (
   <footer>
     <div className="footer-wrapper py-5">
       <ul className="list-unstyled">
@@ -22,7 +22,7 @@ const Footer = ({ twitter, linkedin, github }) => (
         <p className="my-auto">&copy; 2021 Tracely</p>
         <ul className="socials d-flex list-unstyled ml-auto my-auto">
           <li className="mx-1"><a href="https://github.com/jebitok-dev/supplychain" target="_hello"><img src={github} alt="github" width="20px" /></a></li>
-          <li className="mx-1"><a href="kk" target="_hi"><img src={linkedin} alt="linkedin" width="20px" /></a></li>
+          <li className="mx-1"><a href="kk" target="_hi"><img src={telegram} alt="telegram" width="20px" /></a></li>
           <li className="mx-1"><a href="kk" target="_hey"><img src={twitter} alt="twitter" width="20px" /></a></li>
         </ul>
       </div>

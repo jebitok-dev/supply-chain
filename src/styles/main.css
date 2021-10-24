@@ -107,7 +107,7 @@ pre {
   .team-paragraph,
   .community-wrapper p,
   .docs-main p {
-    font: 1rem/1.5rem var(--primary-font);
+    font: 1.5rem var(--primary-font);
     font-weight: 300;
     margin: 2rem 0;
   }

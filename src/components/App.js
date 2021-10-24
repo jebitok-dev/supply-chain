@@ -28,7 +28,7 @@ import '../styles/styles.css';
 import dark from '../icons/dark.svg';
 import light from '../icons/light.svg';
 import twitter from '../icons/twitter.svg';
-// import linkedin from './icons/telegram.svg';
+import telegram from '../icons/telegram.svg';
 import github from '../icons/github.svg';
 import linkedin from '../icons/linkedin.svg';
 import close from '../icons/close.svg';
@@ -81,18 +81,18 @@ class App extends Component {
         name: 'Cedric Odongo',
         job: 'Agribusiness Specialist and Value chain analyst',
         about: 'He a technology and sustainability enthusiast with experience working in food value chains and  market aggregation',
-        twitter: 'https://www.twitter.com/',
-        linkedin: 'https://www.linkedin.com/in//',
+        twitter: 'https://www.twitter.com/odongo_cedric',
+        linkedin: 'https://www.linkedin.com/in/cedric-waswa-odongo-3500a1145',
       },
       {
         id: 1,
         image: 'images/',
-        name: 'Svetlana',
+        name: 'Svetlana Maykhova',
         job: 'Back-end Developer Engineer',
         about: 'Java Developer with experience building REST APIs and scalable databases',
         twitter: 'https://twitter.com/',
         linkedin: 'https://www.linkedin.com/in/',
-        github: 'https://github.com/',
+        github: 'https://github.com/longlogin1',
       },
       {
         id: 2,
