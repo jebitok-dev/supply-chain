@@ -6,9 +6,9 @@ const Header = ({ isClicked }) => (
     <div className="col hero-text">
       <h1 className="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s">Tracely</h1>
       <p className="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
-        A digital traceability 
+        A digital  
         <br />
-        solution
+        traceability solution
         <br />
         {' '}
         powered on blockchain
