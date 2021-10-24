@@ -11,7 +11,7 @@ const About = ({ isClicked }) => (
       <div>
         <p>We are leveraging blockchain technology to build a digital traceability solution that enables consumers to trace the origin/movement of food products in the supply chain. Our solution captures relevant information about food products and stores this information on the blockchain for security and verification and all this information is available to consumers via QR code labeling. By working with food safety authorities and eco-friendly certification bodies, consumers can scan labels on product packaging with their smartphones to verify specific product claims thus helping them to make informed purchasing decisions hence companies with positive environmental efforts won't struggle to differentiate themselves in the crowded marketplace.</p>
       </div>
-      <div className="w-100 about-img-container d-flex justify-center"><img className="about-img" src="images/batchname.jpg" alt="" /></div>
+      <div className="w-100 about-img-container d-flex justify-center"><img className="about-img" src="images/chain.png" alt="" /></div>
     </div>
   </section>
 );
