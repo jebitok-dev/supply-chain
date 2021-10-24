@@ -60,7 +60,7 @@ class NavBar extends Component {
           <li className="ml-auto my-auto"><NavLink style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} to="/documentation">About</NavLink></li>
           <li className="my-auto"><a style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} href="" target="blackx">Contact</a></li>
           <li className="my-auto"><Link to="/#team" style={this.props.isClicked ? this.props.lightLinkColor : this.props.darkLinkColor} animate={{ offset: 0, duration: 500 }}>Team</Link></li>
-          <li className="my-auto"><button className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'}><NavLink to="/Input"></NavLink></button></li>
+          <li className="my-auto"><button className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'}><NavLink to="/Input">Use Tracely</NavLink></button></li>
           <li onClick={this.props.switchMode}><img src={this.props.lightMode} alt="ok" width="20px" /></li>
         </ul>
       </nav>

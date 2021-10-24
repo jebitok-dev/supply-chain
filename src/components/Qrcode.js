@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import QRCode from 'qrcode.react';
+import '../styles/styles.css';
 
-import './styles.css';
-
+/* eslint-disable*/ 
 function QrCode() {
   const [qrValue, setQrValue] = useState('jeftar');
   const handleOnChange = (event) => {
     const { value } = event.target;
     setQrValue(value);
   };
+  
   const downloadQRCode = () => {
     // Generate download with use canvas and stream
     const canvas = document.getElementById('qr-gen');
@@ -24,7 +25,7 @@ function QrCode() {
   };
   return (
     <div className="App">
-      <h1>QR Code and Download - Jeftar</h1>
+      <h1>QR Code and Download - Tracely</h1>
       <input onChange={handleOnChange} placeholder="Write your value" />
       <br />
       <QRCode
@@ -37,7 +38,7 @@ function QrCode() {
       <p>
         Click for
         {' '}
-        <button type="button" onClick={downloadQRCode}>
+        <button type="button" className={this.props.isClicked ? 'lightmodeButton' : 'darkmodeButton'} onClick={downloadQRCode}>
           Download QR Code
         </button>
       </p>

@@ -6,7 +6,8 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import NavBar from './Navbar';
 import Footer from './Footer';
-import InputForm from './Input';
+// import InputForm from './Input';
+import UseTracely from './Tracely';
 
 // container
 
@@ -21,6 +22,7 @@ import '../styles/animate.css';
 import '../styles/navbar.css';
 import '../styles/Footer.css';
 import '../styles/main.css';
+import '../styles/styles.css';
 
 // icons
 import dark from '../icons/dark.svg';
@@ -175,7 +177,7 @@ class App extends Component {
           <Route
             path="/Input"
             render={(props) => (
-              <InputForm
+              <UseTracely
                 {...props}
                 darkMode={darkMode}
                 lightMode={lightMode}
