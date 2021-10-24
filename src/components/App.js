@@ -51,13 +51,13 @@ class App extends Component {
       },
       {
         id: 1,
-        image: 'images/qrcode.jpg',
+        image: 'images/qrcodee.jpg',
         heading: 'QR Code Generator',
         paragraph: 'In-built QR Code Generator that converts data entered on blockchain convertable into sharable and downloadbale version',
       },
       {
         id: 2,
-        image: 'images/verification.jpg',
+        image: 'images/check.jpg',
         heading: 'Verification',
         paragraph: 'Data stored on the blockchain can be accessed by supply chain actors upto end-user',
       },
