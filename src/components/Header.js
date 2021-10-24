@@ -16,7 +16,7 @@ const Header = ({ isClicked }) => (
       <button className={isClicked ? 'lightmodeButton my-2 ' : 'darkmodeButton my-2'}><Link to="/Input">Use Tracely</Link></button>
     </div>
     <div className="col hero-text">
-      <img className="about-img" src="images/blockchain.png" alt="" />
+      <img className="about-img" src="images/chain.png" alt="" />
     </div>
   </section>
 

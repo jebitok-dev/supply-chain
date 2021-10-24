@@ -170,7 +170,7 @@ class App extends Component {
                 teamCard={this.state.teamCard}
                 twitter={twitter}
                 github={github}
-                linkedin={linkedin}
+                telegram={telegram}
               />
             )}
           />
@@ -189,7 +189,7 @@ class App extends Component {
 
         <Footer
           twitter={twitter}
-          linkedin={linkedin}
+          telegram={telegram}
           github={github}
         />
 
