@@ -181,29 +181,6 @@ class App extends Component {
                 darkMode={darkMode}
                 lightMode={lightMode}
                 isClicked={this.state.isClicked}
-                metamask={metamask}
-                trustwallet={trustwallet}
-                // binancechain={binancechain}
-                walletconnect={walletconnect}
-                close={close}
-                view={view}
-                copy={copy}
-              />
-            )}
-          />
-          <Route
-            path="/documentation"
-            render={(props) => (
-              <Documentation
-                {...props}
-                docsData={this.state.docs}
-                darkMode={darkMode}
-                lightMode={lightMode}
-                rightArrow={rightArrow}
-                leftArrow={leftArrow}
-                isClicked={this.state.isClicked}
-                lightLinkColor={lightLinkColor}
-                darkLinkColor={darkLinkColor}
               />
             )}
           />
