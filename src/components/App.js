@@ -62,24 +62,23 @@ class App extends Component {
       {
         id: 3,
         image: 'images/logistics.jpg',
-        heading: 'Logistics',
-        paragraph: '',
+        heading: 'Share',
+        paragraph: 'Our decentralized technology holds information stored on the blockchain in unique QR codes on  product packages that can be scanned by consumers using their smartphones to verify the  authenticity of products',
       },
       {
-        id: 4,
+        id: 5,
         image: 'images/compliance.jpg',
         heading: 'Compliance & Regulation',
         paragraph: 'Tracely works under the compliance and regulation by the Buraue of Standards and Ministry of Agriculture requirements',
-      },
-
+      }
     ],
     teamCard: [
       {
         id: 0,
         image: 'images/cedric.jpg',
         name: 'Cedric Odongo',
-        job: 'Agribusiness Expert and Market Aggregator',
-        about: 'Has experience working in different value chains and helping with market aggregation',
+        job: 'Agribusiness Specialist and Value chain analyst',
+        about: 'He a technology and sustainability enthusiast with experience working in food value chains and  market aggregation',
         twitter: 'https://www.twitter.com/',
         linkedin: 'https://www.linkedin.com/in//',
       },
