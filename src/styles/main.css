@@ -6,6 +6,8 @@
   scroll-behavior: smooth;
 }
 
+/* stylelint-disable */
+
 :root {
   --primary-font: 'Poppins', sans-serif;
   --white: #c9d1d9;

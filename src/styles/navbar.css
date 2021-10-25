@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* stylelint-disable */
 :root {
   --primary-font: 'Poppins', sans-serif;
   --white: #fff;
