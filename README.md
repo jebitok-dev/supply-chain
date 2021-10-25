@@ -37,6 +37,10 @@ To get this project up and running locally, you must already have Nodejs environ
 - LinkedIn: [cedric-waswa-odongo-3500a1145](https://www.linkedin.com/in/cedric-waswa-odongo-3500a1145)
 - Twitter: [@odongo_cedric](https://twitter.com/odongo_cedric)
 
+👤 **Svetlana Maykhova**
+
+- Github: [longlogin1](https://github.com/longlogin1)
+
 👤 **Sharon Jebitok**
 
 - Github: [Jebitok-dev](https://github.com/Jebitok-dev)
